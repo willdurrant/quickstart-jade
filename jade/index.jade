@@ -1,0 +1,37 @@
+extends ../layouts/layout.jade
+
+block headContent
+
+    include includes/head
+    title Simple Jade Quickstart Project!
+
+block bodyContent
+
+    include includes/mixins
+
+    .row#main-container
+
+        .medium-3.columns#left-bar
+
+            include includes/header
+
+            +mainNav
+
+            ul#social-menu
+                li
+                    a#dribbble(href='#')
+                        img(src='images/social-dribbble.png')
+
+        .medium-6.columns
+
+            +skillInfo('Technologies', 'The following are just some of the technologies and frameworks used...')
+
+
+            +skills('Node.js', 'Jade', 'Sass', 'Express')
+
+
+
+
+
+
+    include includes/footer

@@ -1,0 +1,6 @@
+{
+  "menuItems":[
+    {"itemId":"about", "itemLink":"#", "itemAnchor":"About Me"},
+    {"itemId":"experience", "itemLink":"#", "itemAnchor":"My Experience"}
+  ]
+}
